@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_app/pages/Survey.dart';
 import 'package:test_app/pages/login.dart';
 
 void main() {
@@ -43,7 +44,10 @@ class SignUp extends StatelessWidget {
               const SizedBox(height: 16.0),
               ElevatedButton(
                 onPressed: () {
-                  // Add your signup logic here
+               Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => SurveyPage()),
+                  );
                 },
                 child: const Text('Sign Up'),
               ),
