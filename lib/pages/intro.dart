@@ -58,30 +58,6 @@ class Intro extends StatelessWidget {
                     'Get Started',
                   ),
                 ),
-                ElevatedButton(
-                  onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => Dashboard()),
-                    );
-                  },
-                  style: ButtonStyle(
-                    shape: MaterialStateProperty.all(
-                      const RoundedRectangleBorder(
-                        borderRadius: BorderRadius.zero,
-                      ),
-                    ),
-                    backgroundColor: MaterialStateProperty.all(
-                      Colors.pink, // Set the background color here
-                    ),
-                    foregroundColor: MaterialStateProperty.all(
-                      Colors.white, // Set the text color here
-                    ),
-                  ),
-                  child: const Text(
-                    'Get Started',
-                  ),
-                ),
               ],
             ),
           ),

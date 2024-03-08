@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:test_app/pages/blogs.dart';
 import 'package:test_app/pages/dashboard.dart';
 import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
+import 'package:test_app/pages/intro.dart';
 
 class Profile extends StatelessWidget {
   @override
@@ -65,7 +66,9 @@ class Profile extends StatelessWidget {
                 padding: EdgeInsets.only(bottom: 20),
                 child: ElevatedButton(
                   onPressed: () {
-                    // Handle logout button tap
+                    Navigator.push(context, 
+                    MaterialPageRoute(builder: (context) => Intro())
+                    );// Handle logout button tap
                   },
                   child: Text('Logout'),
                 ),
