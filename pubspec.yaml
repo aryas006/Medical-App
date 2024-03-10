@@ -38,6 +38,8 @@ dependencies:
   cupertino_icons: ^1.0.6
   animated_bottom_navigation_bar: ^1.3.3
   flutter_svg: ^2.0.10+1
+  http: ^1.2.1
+  url_launcher: ^6.2.5
 
 dev_dependencies:
   flutter_test:
@@ -68,6 +70,12 @@ flutter:
     - assets/logob3.png
     - assets/pfp.jpg
     - assets/cam.svg
+    - assets/pod1.jpg
+    - assets/pod2.jpg
+    - assets/pod3.jpg
+    - assets/survivor1.jpg
+    - assets/survivor2.jpg
+    - assets/survivor3.jpg
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

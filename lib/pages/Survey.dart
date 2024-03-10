@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_app/pages/dashboard.dart';
 
 class SurveyPage extends StatefulWidget {
   @override
@@ -61,22 +62,9 @@ class _SurveyPageState extends State<SurveyPage> {
               ElevatedButton(
                 onPressed: () {
                   if (_selectedOption != null) {
-                    showDialog(
-                      context: context,
-                      builder: (BuildContext context) {
-                        return AlertDialog(
-                          title: const Text('Survey Result'),
-                          content: Text('You selected: $_selectedOption'),
-                          actions: <Widget>[
-                            TextButton(
-                              onPressed: () {
-                                Navigator.of(context).pop();
-                              },
-                              child: const Text('Close'),
-                            ),
-                          ],
-                        );
-                      },
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => Dashboard()),
                     );
                   } else {
                     showDialog(
