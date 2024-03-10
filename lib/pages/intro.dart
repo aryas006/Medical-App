@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:test_app/pages/SignUp.dart';
-import 'package:test_app/pages/dashboard.dart';
+// import 'package:test_app/pages/dashboard.dart';
 
 class Intro extends StatelessWidget {
   @override
