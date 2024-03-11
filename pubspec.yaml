@@ -40,6 +40,7 @@ dependencies:
   flutter_svg: ^2.0.10+1
   http: ^1.2.1
   url_launcher: ^6.2.5
+  carousel_slider: ^4.2.1
 
 dev_dependencies:
   flutter_test:
@@ -76,6 +77,35 @@ flutter:
     - assets/survivor1.jpg
     - assets/survivor2.jpg
     - assets/survivor3.jpg
+    - assets/c1.jpeg
+    - assets/c2.jpeg
+    - assets/c3.jpeg
+    - assets/c4.jpeg
+    - assets/c5.jpeg
+    - assets/c6.jpeg
+    - assets/c7.jpeg
+    - assets/c8.jpeg
+    - assets/c9.jpeg
+    - assets/c10.jpeg
+    - assets/c11.jpeg
+    - assets/c12.jpeg
+    - assets/c13.jpeg
+    - assets/c14.jpeg
+    - assets/c15.jpeg
+    - assets/c16.jpeg
+    - assets/c17.jpeg
+    - assets/c18.jpeg
+    - assets/c19.jpeg
+    - assets/c20.jpeg
+    - assets/c21.jpeg
+    - assets/c22.jpeg
+    - assets/c23.jpeg
+    - assets/c24.jpeg
+    - assets/c25.jpeg
+    - assets/c26.jpeg
+    - assets/c27.jpeg
+    - assets/c28.jpeg
+    - assets/c29.jpeg
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

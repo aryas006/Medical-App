@@ -256,7 +256,9 @@ class Blogs extends StatelessWidget {
       bottomNavigationBar: AnimatedBottomNavigationBar(
         backgroundColor: Color(0XFFFF55AB),
         icons: [Icons.book, Icons.home, Icons.person],
-        activeIndex: 1,
+        activeIndex: 0,
+        activeColor: Colors.white,
+        inactiveColor: Colors.white,
         onTap: (index) {
           switch (index) {
             case 0:
